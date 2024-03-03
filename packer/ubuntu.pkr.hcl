@@ -15,7 +15,7 @@
 
  source "vultr" "ubuntu-nomad" {
    api_key              = "${var.vultr_api_key}"
-   os_id                = "2104"
+   os_id                = "2179"
    plan_id              = "vc2-1c-2gb"
    region_id            = "bom"
    snapshot_description = "Ubuntu 23.04 Nomad ${formatdate("YYYY-MM-DD hh:mm", timestamp())}"

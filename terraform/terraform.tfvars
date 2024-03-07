@@ -1,0 +1,8 @@
+region = "bom"
+plan = "vc2-1c-2gb"
+snapshot_id = "c31a3a09-8b8b-4b96-a56f-a020606d4cd4"
+private_network_label = "nomad-network"
+nomad_server_hostname_prefix = "nomad-server"
+nomad_client_hostname_prefix = "nomad-client"
+lb_server_name = "nomad-servers-lb"
+lb_client_name = "nomad-clients-lb"

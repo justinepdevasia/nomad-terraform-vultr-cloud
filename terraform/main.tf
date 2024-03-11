@@ -61,7 +61,7 @@ resource "vultr_instance" "nomad_server" {
 
 # Create Nomad Clients (3 instances) in the VPC
 resource "vultr_instance" "nomad_client" {
-  count     = 1
+  count     = 3
   region    = var.region
   plan      = var.plan
   snapshot_id = var.snapshot_id
